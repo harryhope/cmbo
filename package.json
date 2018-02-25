@@ -16,6 +16,9 @@
     "cli",
     "spawn"
   ],
+  "bin": {
+    "cmbo": "./index.js"
+  },
   "author": "Harry Hope",
   "license": "MIT",
   "bugs": {
