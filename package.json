@@ -1,6 +1,6 @@
 {
   "name": "cmbo",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Run multiple processes in one shell + stop all with ctrl+c",
   "main": "index.js",
   "scripts": {
