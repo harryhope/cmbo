@@ -5,8 +5,8 @@ const {spawn} = require('child_process')
 program
   .version('0.1.0')
   .arguments('<commands...>')
-  .action((commands) => {
-    commands.map((command) =>
+  .action(commands => {
+    commands.map(command =>
       spawn(command, {
         stdio: 'inherit',
         shell: true
